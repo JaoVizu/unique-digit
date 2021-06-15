@@ -8,9 +8,9 @@ function uniqueDigit(value){
 }
 
 function sumOfNumbers(value){
-  const splittedNumbers = String(value).split('')
+  const splitNumbers = String(value).split('')
   let sum = 0
-  splittedNumbers.forEach(number => sum += Number(number))
+  splitNumbers.forEach(number => sum += Number(number))
   return sum
 }
 
@@ -20,5 +20,5 @@ function concatNumbers(n ,k) {
   uniqueDigit(p)
 }
 
-uniqueDigit(9875)
+uniqueDigit(987573)
 concatNumbers(9875, 4)
