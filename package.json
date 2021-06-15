@@ -1,11 +1,11 @@
 {
-  "name": "calculator",
+  "name": "challenge",
   "version": "1.0.0",
-  "description": "A calculator that do a simple operations",
+  "description": "Challenge",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joao Vizu",
-  "license": "MIT"
+  "license": ""
 }
